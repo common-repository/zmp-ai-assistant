@@ -1,0 +1,226 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zmp-ai-assistant\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zmp-ai-assistant\n"
+"POT-Creation-Date: 2024-07-24T09:16:13+00:00\n"
+"PO-Revision-Date: 2024-07-24 11:19+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+
+#. Plugin Name of the plugin
+#: zmp-ai-assistant.php app/SettingsInit.php:20 config/config.php:12
+msgid "ZMP AI Assistant"
+msgstr "ZMP AI Assistent"
+
+#. Plugin URI of the plugin
+#: zmp-ai-assistant.php
+msgid "https://zuestmedia.com/ai-assistant/"
+msgstr "https://zuestmedia.ch/ai-assistant/"
+
+#. Description of the plugin
+#: zmp-ai-assistant.php
+msgid ""
+"With the AI Assistant, you can interact with Chat GPT from Open AI directly "
+"in the post editor and generate images with dall-e-3."
+msgstr ""
+"Mit dem AI Assistent können Sie mit Chat GPT von Open AI direkt im "
+"Beitragseditor interagieren und Bilder mit dall-e-3 generieren."
+
+#. Author of the plugin
+#: zmp-ai-assistant.php
+msgid "zuestmedia"
+msgstr "zuestmedia"
+
+#. Author URI of the plugin
+#: zmp-ai-assistant.php
+msgid "https://zuestmedia.com/"
+msgstr "https://zuestmedia.ch/"
+
+#: app/AIForm.php:40 app/Settings.php:73 app/Settings.php:81
+msgid "Chat"
+msgstr "Chat"
+
+#: app/AIForm.php:41 app/Settings.php:74 app/Settings.php:112
+msgid "Image"
+msgstr "Bild"
+
+#: app/AIForm.php:57
+msgid "Message the AI assistant"
+msgstr "Nachricht an den AI-Assistent"
+
+#: app/AIForm.php:59
+msgid "Your request to the AI assistant"
+msgstr "Ihre Anfrage an den AI-Assistent"
+
+#: app/AIForm.php:147
+msgid "Instructions for image generation"
+msgstr "Anweisungen zur Bilderzeugung"
+
+#: app/AIForm.php:149
+msgid "Describe the image to be generated"
+msgstr "Beschreiben Sie das zu erstellende Bild"
+
+#: app/AIForm.php:198
+msgid "Submit"
+msgstr "Senden"
+
+#: app/AIForm.php:199
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: app/AIForm.php:203
+msgid "Copy selected"
+msgstr "Markierung kopieren"
+
+#: app/AIForm.php:206
+msgid "Selected to title"
+msgstr "Markierung nach Titel"
+
+#: app/AIForm.php:209
+msgid "Selected to content/block"
+msgstr "Markierung nach Inhalt/Block"
+
+#: app/AIForm.php:212 app/AIForm.php:215
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: app/AIForm.php:237 app/Metabox.php:34 app/SettingsInit.php:15
+msgid "AI Assistant"
+msgstr "AI Assistent"
+
+#: app/AIForm.php:240
+msgid "Default"
+msgstr "Standard"
+
+#: app/AIForm.php:252
+msgid "Save"
+msgstr "Speichern"
+
+#: app/App.php:229 app/Settings.php:65
+msgid "Default settings"
+msgstr "Standard Einstellungen"
+
+#: app/Metabox.php:55
+msgid "Install AI Assistant"
+msgstr "AI Assistent installieren"
+
+#: app/Metabox.php:56
+msgid "Open AI API key missing"
+msgstr "Open AI API-Schlüssel fehlt"
+
+#: app/Metabox.php:66
+msgid "Open AI Assistant"
+msgstr "AI-Assistent öffnen"
+
+#: app/Metabox.php:67
+msgid "Click \"Open\" to create content or images."
+msgstr "Klicken Sie auf \"Öffnen\", um Inhalte oder Bilder zu erstellen."
+
+#: app/Settings.php:18
+msgid "Template deleted."
+msgstr "Vorlage gelöscht."
+
+#: app/Settings.php:32
+msgid "API credentials for Open AI"
+msgstr "API-Zugangsdaten für Open AI"
+
+#: app/Settings.php:39
+msgid "API Key"
+msgstr "API-Schlüssel"
+
+#: app/Settings.php:53
+msgid "Organization ID (optional)"
+msgstr "Organisations-ID (optional)"
+
+#: app/Settings.php:312
+msgid "Templates"
+msgstr "Vorlagen"
+
+#: app/Settings.php:318
+msgid "Default Template"
+msgstr "Standard Vorlage"
+
+#: app/Settings.php:356
+msgid "Template List"
+msgstr "Vorlagen Liste"
+
+#: app/SettingsInit.php:21
+msgid ""
+"This Plugin adds the AI Assistant to the edit-post-screen, to directly "
+"create content and images with artificial intelligence, while working in "
+"WordPress editor."
+msgstr ""
+"Dieses Plugin fügt den AI-Assistenten zum Edit-Post-Bildschirm hinzu, um "
+"Inhalte und Bilder direkt mit künstlicher Intelligenz zu erstellen, während "
+"man im WordPress-Editor arbeitet."
+
+#~ msgid ""
+#~ "You input some text as a prompt, and the AI Assistant will generate a "
+#~ "text completion that attempts to match whatever context or pattern you "
+#~ "gave it. For example, if you give the AI Assistant the prompt, \"As "
+#~ "Descartes said, I think, therefore\", it will return the completion \" I "
+#~ "am\" with high probability."
+#~ msgstr ""
+#~ "Sie geben einen Text als Aufforderung ein, und der AI Assistent generiert "
+#~ "eine Textvervollständigung, die versucht, dem von Ihnen angegebenen "
+#~ "Kontext oder Muster zu entsprechen. Wenn Sie dem AI Assistent zum "
+#~ "Beispiel die Aufforderung \"As Descartes said, I think, therefore\" "
+#~ "geben, wird sie mit hoher Wahrscheinlichkeit die Vervollständigung \" I "
+#~ "am\" zurückgeben."
+
+#~ msgid ""
+#~ "The image generations AI Assistant allows you to create an original image "
+#~ "given a text prompt. Generated images can have a size of 1024x1024, "
+#~ "1792x1024, or 1024x1792 pixels."
+#~ msgstr ""
+#~ "Mit dem AI-Assistenten zur Bilderzeugung können Sie anhand einer "
+#~ "Textvorgabe ein Originalbild erstellen. Die erzeugten Bilder können eine "
+#~ "Größe von 1024x1024, 1792x1024 oder 1024x1792 Pixel haben."
+
+#~ msgid "Prompt"
+#~ msgstr "Eingabeaufforderung"
+
+#~ msgid "Result"
+#~ msgstr "Resultat"
+
+#~ msgid "Choose template:"
+#~ msgstr "Vorlage auswählen:"
+
+#~ msgid "Completion"
+#~ msgstr "Completion"
+
+#~ msgid "Edit"
+#~ msgstr "Edit"
+
+#~ msgid ""
+#~ "You provide some text and an instruction for how to modify it, and the "
+#~ "model will attempt to edit it accordingly. This is a natural interface "
+#~ "for translating, editing, and tweaking text. This is also useful for "
+#~ "refactoring and working with code."
+#~ msgstr ""
+#~ "Sie geben einen Text und eine Änderungsanweisung vor, und das Modell wird "
+#~ "versuchen, ihn entsprechend zu bearbeiten. Dies ist eine natürliche "
+#~ "Schnittstelle zum Übersetzen, Bearbeiten und Optimieren von Text. Dies "
+#~ "ist auch für das Refactoring und die Arbeit mit Code nützlich."
+
+#~ msgid "Suffix (optional)"
+#~ msgstr "Suffix (optional)"
+
+#~ msgid "Input"
+#~ msgstr "Text"
+
+#~ msgid "Instruction"
+#~ msgstr "Instruktion"
+
+#~ msgid "Model"
+#~ msgstr "Modell"
